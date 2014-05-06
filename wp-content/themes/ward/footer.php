@@ -30,8 +30,8 @@ $bavotasan_theme_options = bavotasan_theme_options();
 			<div class="col-lg-12">
 				<?php $class = ( is_active_sidebar( 'extended-footer' ) ) ? ' active' : ''; ?>
 				<span class="line<?php echo $class; ?>"></span>
-				<span class="pull-left">Copyright &copy; <?php echo date( 'Y' ); ?> <a href="<?php echo esc_url( home_url() ); ?>"><?php bloginfo( 'name' ); ?></a>. All Rights Reserved.</span>
-				<span class="credit-link pull-right"><i class="icon-leaf"></i><?php printf( __( 'Designed by %s.', 'ward' ), '<a href="https://themes.bavotasan.com/2013/ward/">bavotasan.com</a>' ); ?></span>
+				<span class="center">Autorinės teisės &copy; <?php echo date( 'Y' ); ?> <a href="<?php echo esc_url( home_url() ); ?>">Leonardas Šiukšteris</a>. Visos teisės saugomos.</span>
+				
 			</div><!-- .col-lg-12 -->
 		</div><!-- .row -->
 	</div><!-- #footer-content.container -->

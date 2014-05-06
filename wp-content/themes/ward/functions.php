@@ -456,14 +456,14 @@ function bavotasan_add_class( $format ){
  */
 function bavotasan_default_menu( $args ) {
 	extract( $args );
-
+/*
 	$output = wp_list_categories( array(
 		'title_li' => '',
 		'echo' => 0,
 		'number' => 5,
 		'depth' => 1,
 	) );
-	echo "<$container class='$container_class'><ul class='nav navbar-nav'>$output</ul></$container>";
+	echo "<$container class='$container_class'><ul class='nav navbar-nav'>$output</ul></$container>"; */
 }
 
 /**
