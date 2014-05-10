@@ -3,8 +3,9 @@
     <h2 class="entry-title">
       <a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'flat' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
     </h2>
+	
     <?php $archive_metadata = flat_get_theme_option('archive_metadata'); if ( empty( $archive_metadata ) ) : ?>
-      <div class="entry-meta"><?php flat_entry_meta(); ?></div>
+      <!-- <div class="entry-meta"><?php flat_entry_meta(); ?></div> -->
     <?php endif; ?>
   </header>
   <?php $archive_featured_image = flat_get_theme_option('archive_featured_image') ?>

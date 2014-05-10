@@ -17,7 +17,9 @@
 			<div id="secondary" class="col-lg-3">
 				<header id="masthead" class="site-header" role="banner">
 					<div class="hgroup">
-						<?php flat_logo(); ?>
+						
+						<img src="wp-content\themes\flat\assets\img\profi_Fotor.jpg" alt="Profile" />
+						 <?php flat_logo(); ?> 
 					</div>
 					<button type="button" class="btn btn-link hidden-lg toggle-sidebar" data-toggle="offcanvas"><?php _e('<i class="fa fa-gear"></i>', 'flat'); ?></button>
 					<button type="button" class="btn btn-link hidden-lg toggle-navigation"><?php _e('<i class="fa fa-bars"></i>', 'flat'); ?></button>

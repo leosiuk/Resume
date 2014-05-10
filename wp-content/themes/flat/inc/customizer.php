@@ -337,6 +337,7 @@ add_action( 'wp_head', 'flat_custom_font' );
  * Display Logo
  */
 function flat_logo() {
+
   $header_display = flat_get_theme_option( 'header_display', 'site_title' );
 
   if($header_display == 'both_title_logo') {
