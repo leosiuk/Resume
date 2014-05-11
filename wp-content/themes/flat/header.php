@@ -18,7 +18,10 @@
 				<header id="masthead" class="site-header" role="banner">
 					<div class="hgroup">
 						
-						<img src="wp-content\themes\flat\assets\img\profi_Fotor.jpg" alt="Profile" />
+						<img src="http:\\localhost\wp-content\themes\flat\assets\img\profi_Fotor.jpg" alt="Profile" />
+						<div class="vardas">
+						Leonardas
+						</div>
 						 <?php flat_logo(); ?> 
 					</div>
 					<button type="button" class="btn btn-link hidden-lg toggle-sidebar" data-toggle="offcanvas"><?php _e('<i class="fa fa-gear"></i>', 'flat'); ?></button>
