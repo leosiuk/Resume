@@ -1,17 +1,9 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="\wp-content\themes\flat\assets\js\random_pav.js"></script> 
-	<script src="\wp-content\themes\flat\assets\js\jqeury.easing.1.3.js"></script> 
-	<script src="\wp-content\themes\flat\assets\js\cufon-yui.js"></script> 
-	<script src="\wp-content\themes\flat\assets\js\vertical.js"></script> 
-	
-	
-	
 	<title><?php wp_title(''); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -25,9 +17,9 @@
 			<div id="secondary" class="col-lg-3">
 				<header id="masthead" class="site-header" role="banner">
 					<div class="hgroup">
-						<div class=myimg >
+						
 						<img src="http:\\localhost\wp-content\themes\flat\assets\img\profi_Fotor.jpg" alt="Profile" />
-						</div>
+						
 						 <?php flat_logo(); ?> 
 					</div>
 					<button type="button" class="btn btn-link hidden-lg toggle-sidebar" data-toggle="offcanvas"><?php _e('<i class="fa fa-gear"></i>', 'flat'); ?></button>
