@@ -348,7 +348,7 @@ function flat_logo() {
     $header_class = 'display-title';
   }
 
-  $logo = esc_url(flat_get_theme_option( 'logo' ));
+  $logo = esc_url(flat_get_theme_option( '\wp-content\themes\flat\assets\img\profi_Fotor.jpg' ));
   $tagline = get_bloginfo( 'description' );
 
   echo '<h1 class="site-title '.$header_class.'"><a href="'.esc_url( home_url( '/' ) ).'" title="'.esc_attr( get_bloginfo( 'name', 'display' ) ).'" rel="home">';
