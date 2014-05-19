@@ -9,7 +9,7 @@
 	<script src="\wp-content\themes\flat\assets\js\jqeury.easing.1.3.js"></script> 
 	<script src="\wp-content\themes\flat\assets\js\cufon-yui.js"></script> 
 	<script src="\wp-content\themes\flat\assets\js\vertical.js"></script> 
-	
+	<link rel="stylesheet" type="text/css" href="\wp-content\themes\flat\assets\css\style.css">
 	
 	
 	<title><?php wp_title(''); ?></title>

@@ -66,3 +66,16 @@
 	top:334px;
 	left:194px;
 }
+
+#deze   {  width:300px;
+           height:113px;
+           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+          border-bottom:2px solid #fff;
+          border-right:2px solid #fff;
+          margin:5% auto 0 auto; 
+          background:url(http://localhost/wp-content/uploads/2014/05/logo21.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;}
+
+
